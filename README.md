@@ -14,7 +14,7 @@ Traxion is a Django-based project designed to facilitate the management of servi
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository and run container:
 
    ```bash
    git clone https://github.com/your/repository.git
@@ -28,6 +28,13 @@ Traxion is a Django-based project designed to facilitate the management of servi
 
    ```
 
+2. Run integration test and unit test:
+
+   ```bash
+   docker exec -it traxion sh
+   python manage.py test
+
+   ```
 Access the application at http://localhost:8000.
 Usage
 Access the API documentation:
